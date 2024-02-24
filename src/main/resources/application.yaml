@@ -1,0 +1,6 @@
+springdoc:
+  api-docs:
+    path: "/api-docs"
+server:
+  servlet:
+    contextPath: "/demo/v1"
