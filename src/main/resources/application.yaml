@@ -2,5 +2,7 @@ springdoc:
   api-docs:
     path: "/api-docs"
 server:
+  port:
+    8085
   servlet:
     contextPath: "/demo/v1"
