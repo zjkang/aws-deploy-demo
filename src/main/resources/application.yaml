@@ -3,6 +3,6 @@ springdoc:
     path: "/api-docs"
 server:
   port:
-    8085
+    8080
   servlet:
     contextPath: "/demo/v1"
