@@ -27,6 +27,7 @@ public class DemoController {
     )
     public ResponseEntity<String> demo() {
         counter++;
+
         String res = String.format("<h1>Response from demo controller: Response number: %d<h1/>", counter);
         return ResponseEntity.status(200).body(res);
     }
